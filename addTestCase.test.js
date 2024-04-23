@@ -9,7 +9,7 @@ class ElMarketPage {
         this.driver = driver;
         this.searchInput = By.id('search-field');
         this.catalogBlock = By.className('catalog list search-catalog-block');
-        this.addToCartButton = By.className('add basket basket-link-303892');
+        this.addToCartButton = By.xpath('/html/body/div[3]/div[1]/div[2]/div/div[2]/div[1]/div/div[3]/a[2]');
     }
 
     async open() {
